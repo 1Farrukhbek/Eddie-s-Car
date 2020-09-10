@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eddie's Car</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <!-- =========== -->
+  <!-- SITE-HEADER -->
+  <!-- =========== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a class="logo-link" href="index.html"><img class="header-logo" src="img/logo.png" alt="Site-logo"></a>
+      
+      <p class="header-middle-text">c 9:00 до 21:00 без выходных</p>
+      
+      <div class="right-side">
+        <div class="header-tel-number">
+          <p class="tel-number">+7 (818) 247-47-25</p>
+          <p class="tel-number">+7 (818) 247-47-25</p>
+        </div>
+        
+        <a class="header-phone-link" href="tel:+78182474725">Заказать звонок</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- ================= -->
+  <!-- ENG-OF-SITE-HEADER -->
+  <!-- ================== -->
+  
+  <!-- #################################### -->
+  
+  <!-- ================ -->
+  <!-- HERO-SECTION -->
+  <!-- ================ -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-lift-side">
+        <h2 class="hero-heading">Оригинальные запчасти <br>для Белаз</h2>
+        
+        <p class="sub-hero-heading">с бесплатной доставкой <br>в Ваш город!</p>
+        
+        <ul class="hero-list">
+          <li class="hero-list-item list-item-img1">
+            <span>Дилерские цены - ниже на 20%, <br>работаем без посредников!</span>
+          </li>
+          
+          <li class="hero-list-item list-item-img2">
+            <span>Срочная бесплатная доставка <br>за 7 дней</span>
+          </li>
+          
+          <li class="hero-list-item list-item-img3">
+            <span>Даем рассрочку <br>6 месяцев</span>
+          </li>
+          
+          <li class="hero-list-item list-item-img4">
+            <span>Даем гарантию <br>от 12 месяцев</span>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- ======================= -->
+  <!-- ENG-OF-HERO-SECTION -->
+  <!-- ======================= -->
+  
+  <!-- #################################### -->
+  
+  <!-- ================= -->
+  <!-- PRICE-LIST-SECTION -->
+  <!-- ================= -->
+  <section class="price-list-section">
+    <div class="container price-list-container">
+      <h3 class="price-list-heading">Получите прайс прямо сейчас <br>на электронную почту!</h3>
+      
+      <form class="price-list-form" action="https://echo.htmlacademy.ru/" method="POST">
+        <div class="price-list-label-wrapper">
+          <label for="email">
+            <input class="price-list-input price-list-input-img1" type="email" id="email" name="email" placeholder="Введите ваш e-mail" required>
+          </label>
+          
+          <label for="phone">
+            <input class="price-list-input price-list-input-img2" id="phone" type="tel" name="phone" placeholder="Введите ваш телефон" required>
+          </label>
+        </div>
+        
+        <div class="price-list-bottom">
+          <p class="price-list-info">Прайс придет к Вам на почту <br>в течение 5 минут!</p>
+          
+          <img class="clock-icon" src="img/clock-icon.png" alt="">
+          
+          <button class="price-list-button" type="submit">Получить прайс</button>
+        </div>
+      </form>
+      
+      
+    </div>
+  </section>
+  
+  
+  
+  <!-- ======================== -->
+  <!-- ENG-OF-PRICE-LIST-SECTION -->
+  <!-- ======================== -->
+  
+  <!-- #################################### -->
+  
+  <!-- ================= -->
+  <!-- SERVICE-SECTION -->
+  <!-- ================= -->
+  <section class="service-section">
+    <div class="container service-container">
+      <h3 class="service-heading">Вам не придется ждать!</h3>
+      
+      <p class="service-text">Любые запчасти для всех моделей Белаз <br>всегда в наличии!</p>
+      
+      <ul class="service-list">
+        <li class="service-list-item service-list-item-img1">
+          <span class="service-list-item-text">Любые типы деталей от шайбы до двигателя!</span>
+        </li>
+        
+        <li class="service-list-item service-list-item-img2">
+          <span class="service-list-item-text">Все модификации Белаз от 45т до 450 т</span>
+        </li>
+        
+        <li class="service-list-item service-list-item-img3">
+          <span class="service-list-item-text">Отгружаем в день заказа!</span>
+        </li>
+        
+        <li class="service-list-item service-list-item-img4">
+          <span class="service-list-item-text">Доставим в любое место!</span>
+        </li>
+      </ul>
+      
+    </div>
+  </section>
+  
+  <!-- ======================== -->
+  <!-- ENG-OF-SERVICE-SECTION -->
+  <!-- ======================== -->
+  
+  <!-- #################################### -->
+  
+  <!-- ================= -->
+  <!-- SEARCH-ITEM-SECTION -->
+  <!-- ================= -->
+  <section class="search-item-section">
+    <div class="container search-item-container">
+      <h3 class="search-item-heading">Ищете конкретную деталь?</h3>
+      
+      <p class="search-item-text">Если у Вас есть артикул - введите его в поле ниже и получите цену<br>ПРЯМО СЕЙЧАС!</p>
+      
+      <form class="search-item-form" action="https://echo.htmlacademy.ru/" method="POST">
+        <label for="email1">
+          <input class="search-item-input search-item-input-img1" type="email" id="email1" name="email" placeholder="Введите артикул детали" required>
+        </label>
+        
+        <label for="phone1">
+          <input class="search-item-input search-item-input-img2" id="phone1" type="tel" name="phone" placeholder="Введите ваш телефон" required>
+        </label>
+        
+        <button class="search-item-button" type="submit">Получить прайс</button>
+        
+      </form>
+      
+      <div class="search-item-bottom-side">
+        <p class="search-item-bottom-side-text first-text">Мы перезвоним вам в течение 3 минут и назовем цену детали!</p>
+        
+        <p class="search-item-bottom-side-text second-text">Или Вы можете перезвонить нам сами:</p>
+        
+        <p class="phono-number-text">+7 (818) 247-47-25</p>
+        
+      </div>
+      
+    </div>
+  </section>
+  <!-- ======================== -->
+  <!-- ENG-OF-SEARCH-ITEM-SECTION -->
+  <!-- ======================== -->
+  
+  <!-- #################################### -->
+  
+  <!-- ================= -->
+  <!-- PACKING-SECTION -->
+  <!-- ================= -->
+  <section class="packing-section">
+    <div class="container packing-container">
+      <h3 class="packing-heading">Вам не придется ждать!</h3>
+      
+      <ul class="packing-list">
+        <li class="packing-list-item packing-list-item-img1">
+          <p class="packing-list-item-text">Гарантия на целостность поставки прописана в договоре</p>
+          <a class="packing-list-link" href="#">ПОДРОБНЕЕ</a>
+        </li>
+        
+        <li class="packing-list-item packing-list-item-img2">
+          <p class="packing-list-item-text">Каждая запчасть доставляется с завода в жесткой упаковке</p>
+          <a class="packing-list-link" href="#">ПОДРОБНЕЕ</a>
+        </li>
+        
+        
+        <li class="packing-list-item packing-list-item-img3">
+          <p class="packing-list-item-text">Дополнительный контроль качества нашими специалистами</p>
+          <a class="packing-list-link" href="#">ПОДРОБНЕЕ</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- ======================== -->
+  <!-- ENG-OF-PACKING-SECTION -->
+  <!-- ======================== -->
+  
+  <!-- #################################### -->
+  
+  <!-- ================= -->
+  <!-- BONUSES-SECTION -->
+  <!-- ================= -->
+  <section class="bonuses-section">
+    <div class="container bonuses-container">
+      <h3 class="bonuses-heading">У нас разработаны бонусные системы <br>и скидки для наших клиентов</h3>
+      
+      <ul class="bonuses-list">
+        <li class="bonuses-list-item bonuses-list-item-img1">
+          <span class="bonuses-list-item-text">Дополнительная скидка 10% на вторую запчасть и любые последующие</span>
+        </li>
+        
+        <li class="bonuses-list-item bonuses-list-item-img2">
+          <span class="bonuses-list-item-text">Скидка 20% при заключении договора на годовое сервисное обслуживание</span>
+        </li>
+        
+        <li class="bonuses-list-item bonuses-list-item-img3">
+          <span class="bonuses-list-item-text">Бесплатная доставка по всей России для всех клиентов</span>
+        </li>
+        
+        <li class="bonuses-list-item bonuses-list-item-img4">
+          <span class="bonuses-list-item-text">Бесплатная круглосуточная техническая поддержка</span>
+        </li>
+      </ul>
+      
+    </div>
+  </section>
+  <!-- ======================== -->
+  <!-- ENG-OF-BONUSES-SECTION -->
+  <!-- ======================== -->
+  
+  
+  
+  <!-- #################################### -->
+  
+  
+  
+  <!-- ================= -->
+  <!-- F.A.Q.-SECTION -->
+  <!-- ================= -->
+  <section class="faq-section">
+    <div class="container faq-container">
+      <h3 class="faq-heading">У нас разработаны бонусные системы <br>и скидки для наших клиентов</h3>
+      
+      <p class="faq-text">На Ваши вопросы отвечает Эдуард</p>
+      
+      <div class="faq-wrapper">
+        <div class="faq-wrapper-left-side">
+          <ol class="faq-list">
+            <li class="faq-list-item">Как заказать деталь правильно?
+              <p class="faq-list-item-sub">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности.</p>
+            </li>
+            
+            <li class="faq-list-item">Что делать, если запчасть не понадобилась?
+              <p class="faq-list-item-sub">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности.</p>
+            </li>
+            
+            <li class="faq-list-item">Можете ли Вы установить деталь?
+              <p class="faq-list-item-sub">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности.</p>
+            </li>
+            
+            <li class="faq-list-item">В чем преимущества оригинальных деталей?
+              <p class="faq-list-item-sub">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности.</p>
+            </li>
+            
+            <li class="faq-list-item">В чем преимущества оригинальных деталей?
+              <p class="faq-list-item-sub">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности.</p>
+            </li>
+          </ol>
+          <p class="faq-list-text">Еще вопросы</p>
+        </div>
+        
+        <div class="faq-wrapper-right-side">
+          <img class="faq-boss-img" src="img/boss-img.jpg" alt="Boss image">
+          <p class="faq-boss-text">Эдуард Викторович, <br>Директор ООО "Eddie`s-Car"</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- ======================== -->
+  <!-- ENG-OF-F.A.Q.-SECTION -->
+  <!-- ======================== -->
+  
+  
+  
+  <!-- #################################### -->
+  
+  
+  
+  <!-- ================= -->
+  <!-- WORK-CONDITION-SECTION -->
+  <!-- ================= -->
+  <section class="work-condition-section">
+    <div class="container work-condition-container">
+      <h3 class="work-condition-heading">С нами удобно работать!</h3>
+      
+      <p class="work-condition-text">Более 70% клиентов приходят к нам по рекомендации!</p>
+      
+      <ul class="work-condition-list">
+        <li class="work-condition-list-item work-condition-list-item-img1">
+          <span class="work-condition-list-item-text">Вы вносите предоплату в размере 50% от стоимости запчасти</span>
+        </li>
+        
+        <li class="work-condition-list-item work-condition-list-item-img2">
+          <span class="work-condition-list-item-text">Отправляем запчасти в день заказа</span>
+        </li>
+        
+        <li class="work-condition-list-item work-condition-list-item-img3">
+          <span class="work-condition-list-item-text">Получаете деталь, проверяете, оплачиваете оставшиеся 50%</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- ======================== -->
+  <!-- ENG-OF-WORK-CONDITION-SECTION -->
+  <!-- ======================== -->
+  
+  
+  
+  <!-- #################################### -->
+  
+  
+  
+  <!-- ================= -->
+  <!-- OUR-STORAGE-SECTION -->
+  <!-- ================= -->
+  <section class="our-storage-section">
+    <div class="container our-storage-container">
+      <h3 class="our-storage-heading">У нас собственный склад!</h3>
+      
+      <p class="our-storage-text">Это позволяет нам быстро обрабатывать запросы и отгружать детали в день заказа!</p>
+      
+      <div class="our-storage-wrapper-right-side">
+        <img class="our-storage-boss-img" src="img/store-img1.jpg" alt="Storage image">
+        
+        <img class="our-storage-boss-img" src="img/store-img2.jpg" alt="Storage image">
+        
+        <img class="our-storage-boss-img" src="img/store-img3.jpg" alt="Storage image">
+        
+      </div>
+    </div>
+</section>
+
+
+
+<!-- ======================== -->
+<!-- ENG-OF-OUR-STORAGE-SECTION -->
+<!-- ======================== -->
+
+
+
+<!-- #################################### -->
+
+
+
+<!-- ================= -->
+<!-- FAST-TEAM-SECTION -->
+<!-- ================= -->
+<section class="fast-team-section">
+  <div class="container fast-team-container">
+    <h3 class="fast-team-heading">У нас в штате есть мобильные бригады, готовые выехать на сервисное обслуживание, ремонт и проведение диагностики!</h3>
+    
+    <ul class="fast-team-list">
+      <li class="fast-team-list-item fast-team-list-item-img1">
+        <span class="fast-team-list-item-text">Организуем выезд специалистов в течение двух дней</span>
+      </li>
+      
+      <li class="fast-team-list-item fast-team-list-item-img2">
+        <span class="fast-team-list-item-text">Бригады укомплектованы всем необходимым оборудованием для производства работ любой сложности</span>
+      </li>
+      
+      <li class="fast-team-list-item fast-team-list-item-img3">
+        <span class="fast-team-list-item-text">Все специалисты проходят обучение и ежегодную аттестацию</span>
+      </li>
+    </ul>
+  </div>
+</section>  
+<!-- ======================== -->
+<!-- ENG-OF-FAST-TEAM-SECTION -->
+<!-- ======================== -->
+
+
+
+<!-- #################################### -->
+
+
+
+<!-- ================= -->
+<!-- CONSULTING-SECTION -->
+<!-- ================= -->
+<section class="cunsulting-section">
+  <div class="container cunsulting-container">
+    <h3 class="cunsulting-heading">Если Вам необходима бесплатная консультация по вопросу обслуживания</h3>
+    
+    <p class="cunsulting-text">Звоните нам по телефону:</p>
+    
+    <p class="phono-number-text">+7 (818) 247-47-25</p>
+    
+    <form class="cunsulting-form" action="https://echo.htmlacademy.ru/" method="POST">    
+      <label for="phone2">
+        <input class="cunsulting-input cunsulting-input-img" id="phone2" type="tel" name="phone" placeholder="Введите ваш телефон" required>
+      </label>
+      
+      <button class="cunsulting-button" type="submit">Перезвонить сейчас</button>  
+    </form>   
+  </div>
+</section>
+<!-- ======================== -->
+<!-- ENG-OF-CONSULTING-SECTION -->
+<!-- ======================== -->
+
+
+
+<!-- #################################### -->
+
+
+
+<!-- ================= -->
+<!-- OUR-OFFICE-SECTION -->
+<!-- ================= -->
+<section class="our-office-section">
+  <div class="container our-office-container">
+    <h3 class="our-office-heading">Приезжайте в наш офис!</h3>
+    
+    <p class="our-office-text">г. Архангельск, Москва-Сити, оф. 3725</p>
+    
+    <p class="our-office-phono-number">+7 (818) 247-47-25</p>  
+  </div>
+</section>
+<!-- ======================== -->
+<!-- ENG-OF-OUR-OFFICE-SECTION -->
+<!-- ======================== -->
+
+
+
+<!-- #################################### -->
+
+
+
+<!-- ================= -->
+<!-- LOCATION-SECTION -->
+<!-- ================= -->
+<section class="location-section">
+    <h3 class="visually-hidden">Our location</h3>
+    <a class="location-link" href="https://goo.gl/maps/F7fKwr89VuHPFACc6"></a>
+</section>
+<!-- ======================== -->
+<!-- ENG-OF-LOCATION-SECTION -->
+<!-- ======================== -->
+
+
+
+<!-- #################################### -->
+
+
+
+<!-- ================= -->
+<!-- FOOTER-SECTION -->
+<!-- ================= -->
+<footer class="site-footer">
+  <div class="container footer-container">
+    <a class="footer-logo-link" href="index.html"><img class="footer-logo" src="img/logo.png" alt="Site-logo"></a>
+    
+    <div class="footer-middle-text">© 2016, CДЕЛАНО С
+      <div class="footer-logo1-wrapper">
+        <img class="footer-logo1" src="img/footer-love.png" alt="Сердце">
+      </div>КОМАНДОЙ
+      <div class="footer-logo2-wrapper">
+        <img src="img/footer-logo.png" alt="Логотип" class="footer-logo2">
+      </div>
+    </div>
+    
+    <div class="footer-right-side">
+      <p class="footer-tel-number-text">Есть вопросы? Звоните!</p>
+      <p class="footer-tel-number">+7 (818) 247-47-25</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<!-- ======================== -->
+<!-- ENG-OF-FOOTER-SECTION -->
+<!-- ======================== -->
+</body>
+</html>
